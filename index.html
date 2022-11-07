@@ -22,9 +22,9 @@
         </nav>
         <header>
             <div class="row">
-                <div>   
-                    <h1>The best place to learn Frontend </h1>
-                    <p class="big">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, quos sequi quaerat voluptate illum ab alias possimus deserunt at molestiae. </p>
+                <div class="home__description">   
+                    <h1>Best place to learn Frontend</h1>
+                    <p class="big">Go from absolute beginner to pro with a simplified process</p>
                 <button>Start now</button>
                 </div>
                 <figure><img src="./assets/laptop.png" alt=""></figure>
@@ -35,46 +35,56 @@
         <main>
             <section id="about">
                 <h2>About</h2>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita perspiciatis repudiandae cupiditate sapiente. Quia quo voluptatibus mollitia natus 
-                    nostrum dolor laboriosam dolores. Ducimus minus recusandae doloremque quia dolor eum.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus voluptates cumque ab omnis blanditiis, dolore fugiat optio, minima est a sint 
+                <div class="row">
+                <div class="section__description">
+                    <div class="section__description--wrapper">
+                        <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita perspiciatis repudiandae cupiditate sapiente. Quia quo voluptatibus mollitia natus 
+                        nostrum dolor laboriosam dolores. Ducimus minus recusandae doloremque quia dolor eum.</p>
+                        <p class="section__description--para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus voluptates cumque ab omnis blanditiis, dolore fugiat optio, minima est a sint 
                         explicabo quas natus, enim architecto numquam excepturi perferendis! Veritatis.</p>
-                </div>
-                    <figure>
+                    </div>
+                    <figure class="about__img--wrapper">
                         <img src="./assets/about.jpg" alt="">
                     </figure>
+                </div>
+                </div>
             </section>
 
             <section id="discord">
                 <h2>Discord</h2>
-                <img src="./assets/discord.png" alt="">
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Vero molestias unde odit, aliquam perspiciatis deleniti necessitatibus eveniet quam cum non blanditiis inventore praesentium quia in?</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum eveniet culpa magnam quisquam aperiam aliquid, ut beatae natus possimus nisi?</p>
+                <div class="row">
+                <div class="section__description">
+                    <figure class="about__img--wrapper"><img src="./assets/discord.png" alt=""> </figure>
+                    <div class="section__description--wrapper">
+                        <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Vero molestias unde odit, aliquam perspiciatis deleniti necessitatibus eveniet quam cum non blanditiis inventore praesentium quia in?</p>
+                        <p class="section__description--para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum eveniet culpa magnam quisquam aperiam aliquid, ut beatae natus possimus nisi?</p>
+                    </div>
                 </div>
+            </div>
             </section>
 
             <section id="contact">
                 <h2>Contact</h2>
+                <div class="row">
                 <form action="">
                     <label for="">Email</label>
                     <input type="email" placeholder="juan@example.com">
                     <label for="">Message</label>
-                    <textarea type="text" rows="12"></textarea>
-                    <button>send</button>
+                    <textarea type="text" placeholder="Cool website, lets connect"></textarea>
+                    <button>Contact us</button>
                 </form>
+            </div>
             </section>
         </main>
         <footer>
-            <img src="/assets/FES.svg" alt="">
-            <div>
-                <ul>
-                    <li> <a href="#about">About</a></li>
-                    <li> <a href="#discord">Discord</a></li>
-                    <li> <a href="#Contact">Contact</a></li>
-                </ul>  
+            <img src="/assets/FES.svg" alt="" class="footer__logo">
+            <div class="footer__links">
+                
+                    <li class="footer__links"> <a href="#about">About</a></li>
+                    <li class="footer__links"> <a href="#discord">Discord</a></li>
+                    <li class="footer__links"> <a href="#Contact">Contact</a></li>
+                
             </div>
             <p>Copyright yo </p>
         </footer>
